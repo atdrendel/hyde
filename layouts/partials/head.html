@@ -20,6 +20,7 @@
   <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/poole.css">
   <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css">
   <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/hyde.css">
+  {{ with .Site.Params.customCSS }}<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">{{ end }}
   {{ partial "head_fonts.html" . }}
 
   <!-- Icons -->
