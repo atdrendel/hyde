@@ -1,3 +1,3 @@
-module github.com/spf13/hyde
+module github.com/atdrendel/hyde
 
 go 1.12
